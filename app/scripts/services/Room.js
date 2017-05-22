@@ -6,8 +6,13 @@
         
         Room.all = rooms;
         
+        Room.add = function(room) {
+            $add(Room) = true;
+        }
+        
         return Room;
     }
+    
     
         angular
         
