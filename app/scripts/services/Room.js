@@ -12,11 +12,9 @@
         };
         
         return Room;
-        
     }
     
     angular
-        
         .module('blocChat')
-        .factory('Room', ['$factorybaseArray', Room]);
-}();
+        .factory('Room', ['$firebaseArray', Room]);
+})();
