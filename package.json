@@ -1,10 +1,10 @@
 {
-  "name": "bloc-chat",
+  "name": "bloc-frontend-project-starter",
   "version": "0.0.2",
-  "description": "Starter project for Bloc Frontend Web Development",
+  "description": "Starter project for the Bloc Frontend Web Development",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bloc/bloc-frontend-project-starter.git"
+    "url": "https://github.com/bloc/bloc-frontend-project-starter"
   },
   "main": "server.js",
   "scripts": {
@@ -13,8 +13,7 @@
   "author": "Bloc Inc",
   "license": "ISC",
   "dependencies": {
-    "firebase": "^3.6.4",
-    "hapi": "~7.5.0",
+    "hapi": "^7.5.3",
     "path": "^0.4.9"
   },
   "devDependencies": {
@@ -25,10 +24,6 @@
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-copy": "^0.5.0",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-hapi": "^0.8.1"
-  },
-  "bugs": {
-    "url": "https://github.com/bloc/bloc-frontend-project-starter/issues"
-  },
-  "homepage": "https://github.com/bloc/bloc-frontend-project-starter#readme"
+    "grunt-hapi": "^0.12.0"
+  }
 }
